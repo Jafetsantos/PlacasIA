@@ -1,0 +1,36 @@
+# Node modules y build
+frontend/node_modules/
+frontend/build/
+
+# Entornos virtuales de Python
+backend/venv/
+venv/
+
+# Archivos de configuración sensibles
+*.env
+backend/.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de bases de datos temporales
+*.sqlite3
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de modelos grandes o datos temporales
+*.pt
+*.h5
+*.ckpt
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/ 
